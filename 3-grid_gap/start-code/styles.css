@@ -1,0 +1,9 @@
+@import url(./basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  display: grid;
+  grid-template-columns: 100px 200px 400px;
+  grid-template-rows: 200px 150px 100px;
+}

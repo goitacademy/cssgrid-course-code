@@ -1,0 +1,11 @@
+@import url(./basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 100px 200px;
+  grid-template-rows: 250px 100px;
+  grid-auto-rows: 400px 100px;
+}
