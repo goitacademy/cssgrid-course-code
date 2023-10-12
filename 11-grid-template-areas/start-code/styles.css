@@ -1,0 +1,22 @@
+@import url(./basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  display: grid;
+}
+
+.header {
+}
+
+.main {
+}
+
+.sidebar {
+}
+
+.footer {
+}
+
+@media (max-width: 700px) {
+}

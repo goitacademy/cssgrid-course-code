@@ -1,0 +1,32 @@
+@import url(./basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(3, 150px);
+  height: 500px;
+  border: 10px solid;
+  /* justify-items: center;
+  align-items: center; */
+  /* justify-content: space-evenly; */
+  /* align-content: space-evenly; */
+}
+
+.item-4 {
+  justify-self: stretch;
+  align-self: stretch;
+}
+
+/* justify-items */
+
+/* align-items */
+
+/* justify-content */
+
+/* align-content */
+
+/* justify-self */
+
+/* align-self */
