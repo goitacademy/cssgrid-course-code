@@ -1,0 +1,129 @@
+@import "./styleguide.css";
+
+.header {
+  background-color: var(--common-white);
+  padding: 16px;
+}
+
+.logo {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.label {
+  color: var(--orange);
+  font-family: var(--common-font);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+}
+
+.main {
+  background-color: var(--common-white);
+  padding-bottom: 96px;
+}
+
+.container {
+  max-width: 1128px;
+  margin: auto;
+  padding: 0 16px;
+}
+
+.posts {
+  margin-bottom: 80px;
+}
+
+.post > a {
+  position: relative;
+  color: var(--common-white);
+}
+
+.overlay {
+  border-radius: 0px 0px 16px 16px;
+  background-color: rgba(18, 18, 22, 0.5);
+  padding: 12px 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (min-width: 1440px) {
+  .overlay {
+    padding: 24px 48px;
+  }
+}
+
+.post-title {
+  color: var(--common-white);
+  font-family: var(--common-font);
+}
+
+.blog-link {
+  color: var(--common-black);
+}
+
+.blog-title {
+  color: var(--grey, #2c2c2c);
+  font-family: var(--common-font);
+  margin-bottom: 12px;
+}
+
+.blog-text {
+  color: var(--grey, #2c2c2c);
+  font-family: var(--common-font);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.socials-title {
+  color: var(--grey, #2c2c2c);
+  font-family: var(--common-font);
+  margin-bottom: 24px;
+}
+.social-link {
+  padding: 8px;
+  color: var(--common-black, #2f2f37);
+  border-radius: 16px;
+  font-family: var(--common-font);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.socials-item:nth-child(1) .social-link {
+  background-color: var(--navy);
+}
+
+.socials-item:nth-child(2) .social-link {
+  background-color: var(--pink);
+}
+
+.socials-item:nth-child(3) .social-link {
+  background-color: var(--scarlet);
+}
+
+.socials-item:nth-child(4) .social-link {
+  background-color: var(--turquoise);
+}
+
+.socials-item:nth-child(5) .social-link {
+  background-color: var(--yellow);
+}
+
+.socials-item:nth-child(6) .social-link {
+  background-color: var(--lilac);
+}
+
+.video-title {
+  color: var(--grey, #2c2c2c);
+  font-family: var(--common-font);
+}
+
+.footer {
+  padding: 16px;
+  background-color: var(--blue-light);
+}
