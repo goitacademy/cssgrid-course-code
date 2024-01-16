@@ -4,4 +4,6 @@
 
 .container {
   display: grid;
+  border: 10px solid #000;
+  grid-template-columns: repeat(auto-fit, 150px);
 }

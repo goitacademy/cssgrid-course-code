@@ -4,4 +4,15 @@
 
 .container {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.grid-item {
+  border: 2px solid #000;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+  align-items: center;
+  justify-items: center;
 }
