@@ -5,6 +5,13 @@
   padding: 16px;
 }
 
+.header-container {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  column-gap: 8px;
+  align-items: center;
+}
+
 .logo {
   display: block;
   width: 24px;
